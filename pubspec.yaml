@@ -1,0 +1,31 @@
+name: food_ordering_app
+description: A modern Flutter + Firebase food ordering app with admin panel.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.13.0
+  provider: ^6.1.1
+  image_picker: ^1.0.7
+  firebase_storage: ^11.7.1
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/login.png
+    - assets/images/background.jpg

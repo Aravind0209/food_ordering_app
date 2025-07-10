@@ -1,0 +1,29 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+android/.gradle/
+ios/Pods/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# IDEs
+.vscode/
+.idea/
+
+# Others
+*.lock
+*.log
+*.tmp
+*.apk
+*.ipa
+*.DS_Store
+
+# macOS/Linux
+*.swp
+
+# Windows
+Thumbs.db
